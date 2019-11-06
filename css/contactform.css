@@ -1,0 +1,118 @@
+body {
+    font-size: 16px;
+    background: #fff;
+}
+
+h2 {
+    text-align: center;
+    text-decoration: underline;
+}
+
+h1.submitted-data {
+    white-space: pre;
+}
+
+form {
+    width: 80%;
+    background: #8B8B8B;
+    padding: 100px 50px 75px;
+    margin-top: 10%;
+    margin-left: 10%;
+}
+
+#display {
+    color: #fff;
+    background: rgb(56, 54, 54);
+    padding: 15px 40px 40px;
+    border: 1px solid #5ba9aa;
+    margin: 50px auto 0;
+    border-radius: 5px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: white;
+}
+
+label i {
+    color: #999;
+    font-size: 80%;
+}
+
+input,
+select {
+    border: 1px solid #ccc;
+    padding: 10px;
+    display: block;
+    width: 100%;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+
+.row {
+    padding-bottom: 10px;
+}
+
+.form-inline {
+    border: 1px solid #ccc;
+    padding: 8px 10px 4px;
+    border-radius: 2px;
+}
+
+.form-inline label,
+.form-inline input {
+    display: inline-block;
+    width: auto;
+    padding-right: 15px;
+}
+
+.error {
+    color: red;
+    font-size: 90%;
+}
+
+input[type="submit"] {
+    font-size: 110%;
+    font-weight: 100;
+    background: #5ba9aa;
+    border-color: #5ba9aa;
+    width: 150px;
+    height: 65px;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+input[type="submit"]:hover {
+    background: #0165b6;
+}
+
+textarea {
+    width: 100%;
+    resize: none;
+}
+
+#coffeegirl {
+    width: 73%;
+    margin-top: 10%;
+}
+
+
+/* Extra small devices (phones, 600px and down)*/
+
+@media only screen and (max-width: 600px) {
+    form {
+        width: 100%;
+    }
+    Input {
+        width: 100%;
+    }
+    textarea {
+        width: 100%;
+    }
+    input[type="submit"] {
+        left: 90px;
+    }
+}

@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melting Pot Cafe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/FoodMenu.css">
+    <!--| Add icon and font library |-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+
+</head>
+
+<body>
+    <!--| navbar |-->
+    <div class="navbar">
+        <div style="display: none; height: 20%; margin-bottom: -20%; background: white; border-bottom: 2px solid #5ba9aa">
+        </div>
+        <div class="navbar-logo">
+            <a href="index.html"><img src="images/meltingpotlogo.png" alt="Melting Pot Logo" /></a>
+        </div>
+        <div class="navbar-left">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+
+        </div>
+    </div>
+
+    <!--| Header Div |-->
+    <div id="header">
+        <div class="col-12"><img src="images/menuheader.jpg" style="border-bottom: 4px solid #5ba9aa" alt="Burgers on a table"></div>
+    </div>
+
+    <!--| main content div |-->
+    <h1 style="text-align: center">
+        MENU
+    </h1>
+    <div class="row menu">
+        <div class="col-6" style="border-right: 3px solid #5ba9aa">
+            <h3><u>FOOD</u></h3>
+            <div class="container">
+                <form name="menuForm" onsubmit="return onMenuSubmit();"></form>
+                    <h4>
+                        <span>Chicken, Cranberry & Camembert Burger </span>
+                        <span class="dots"></span>
+                        <span>$15.00</span>
+                        <span><input type="checkbox" value="Chicken, Cranberry & Camembert Burger"></span>
+
+                    </h4>
+                    <p>succulent chicken, cranberry, camembert & salad greens on a toasted bap w/ fries</p>
+                    <h4>
+                        <span>BBQ Bacon Cheese Burger</span>
+                        <span class="dots"></span>
+                        <span>$15.00</span>
+                        <span><input type="checkbox" value="BBQ Bacon Cheese Burger"></span>
+                    </h4>
+                    <p>juicy beef patty, bacon, cheese & salad greens on a toasted bap w/ fries</p>
+                    <h4>
+                        <span>Mushroom, Bacon & Cheese Burger</span>
+                        <span class="dots"></span>
+                        <span>$15.00</span>
+                        <span><input type="checkbox" value="Mushroom, Bacon & Cheese Burger"></span>
+                    </h4>
+                    <p>sautéed mushrooms, rasher bacon, cheese & salad greens on a toasted bap w/ fries</p>
+                    <h4>
+                        <span>Mediterranean Style Wraps</span>
+                        <span class="dots"></span>
+                        <span>$12.00</span>
+                        <span><input type="checkbox" value="Mediterranean Style Wraps"></span>
+                    </h4>
+                    <p>filled with your choice of beef or lamb and seasonal salad greens</p>
+                    <h4>
+                        <span>Steak Sandwich</span>
+                        <span class="dots"></span>
+                        <span>$15.00</span>
+                        <span><input type="checkbox" value="Steak Sandwich"></span>
+                    </h4>
+                    <p>steak and sautéed onions on toasted turkish pide w/ fries</p>
+                    <h4>
+                        <span>Nachos</span>
+                        <span class="dots"></span>
+                        <span>$13.50</span>
+                        <span><input type="checkbox" value="Nachos"></span>
+                    </h4>
+                    <p>crispy tortilla chips with either vege beans or beef chili topped w/ sour cream and cheese</p>
+                    <h4>
+                        <span>Bowl Of Fries</span>
+                        <span class="dots"></span>
+                        <span>$6.00</span>
+                        <span><input type="checkbox" value="Bowl Of Fries"></span>
+                    </h4>
+                    <p>served w/ tomato sauce or aioli</p>
+                    <h4>
+                        <span>Wedges</span>
+                        <span class="dots"></span>
+                        <span>$15.00</span>
+                        <span><input type="checkbox" value="Wedges"></span>
+                    </h4>
+                    <p>topped with grilled cheese & bacon served w/ sour cream & sweet chilli</p>
+
+            </div>
+        </div>
+
+        <div class="col-6">
+            <h3><u>DRINK</u></h3>
+            <div class="container" id="drinks">
+                <h3 style="color:#5ba9aa">Coffee</h3>
+                <h4>
+                    <span>Long Black</span>
+                    <span class="dots"></span>
+                    <span>$4.00</span>
+                    <span><input type="checkbox" value="Long Black"></span>
+                </h4>
+                <h4>
+                    <span>Cappuccino</span>
+                    <span class="dots"></span>
+                    <span>$4.00</span>
+                    <span><input type="checkbox" value="Cappuccino"></span>
+                </h4>
+                <h4>
+                    <span>Flat White</span>
+                    <span class="dots"></span>
+                    <span>$4.00</span>
+                    <span><input type="checkbox" value="Flat White"></span>
+                </h4>
+                <h4>
+                    <span>Mocchaccino</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="Mocchaccino"></span>
+                </h4>
+
+                <h4>
+                    <span>Hot Chocolate</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="Hot Chocolate"></span>
+                </h4>
+
+                <h3 style="color:#5ba9aa">Tea</h3>
+                <h4>
+                    <span>English Breakfast</span>
+                    <span class="dots"></span>
+                    <span>$3.50</span>
+                    <span><input type="checkbox" value="English Breakfast Tea"></span>
+                </h4>
+                <h4>
+                    <span>Earl Grey</span>
+                    <span class="dots"></span>
+                    <span>$3.50</span>
+                    <span><input type="checkbox" value="Earl Grey Tea"></span>
+                </h4>
+                <h4>
+                    <span>Green Tea</span>
+                    <span class="dots"></span>
+                    <span>$3.50</span>
+                    <span><input type="checkbox" value="Earl Grey Tea"></span>
+                </h4>
+                <h3 style="color:#5ba9aa">
+                    Soft Drinks
+                </h3>
+                <h4>
+                    <span>Coca Cola</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="Coca Cola"></span>
+                </h4>
+                <h4>
+                    <span>Coke No Sugar</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="Coke No Sugar"></span>
+                </h4>
+                <h4>
+                    <span>Lemonade</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="Lemonade"></span>
+                </h4>
+                <h4>
+                    <span>L&P</span>
+                    <span class="dots"></span>
+                    <span>$4.50</span>
+                    <span><input type="checkbox" value="L&P"></span>
+                </h4>
+
+            </div>
+        </div>
+    </div>
+    <form action="payment.html">
+        <input type="submit" id=Order value="Order" />
+        <!--| Button disabled to allow for linking to payment page for testing purposes. |-->
+    </form>
+    <!--| Main Content Ends| -->
+
+    <!--| Footer |-->
+    <div class="footer">
+        <p>© Saacha Morgan | 30016654</p>
+    </div>
+</body>
+
+</html>

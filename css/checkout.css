@@ -1,0 +1,146 @@
+#OrderDisplay{
+    margin-left: 50px;
+    margin-top: 50px;
+    height: 80%;
+    width: 30%;
+    background: #8B8B8B;
+    border-radius: 20px;
+}
+#innerorder{
+    margin-left: 20px;
+    height: 80%;
+    width: 92%;
+}
+
+.credit{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .debit{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .googlepay{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .instore{
+    float: left;
+    margin-left: 20px;
+    margin-top: 15px;
+  }
+  .phnnmb{
+    float: left;
+    Margin-left: 87px;
+    margin-bottom: -100px;
+  }
+
+  .fullname{
+    width: 50%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+}
+.mobilenumber{
+    width: 60%;
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    margin-left:110px;
+}
+.messagearea{
+    border: 1px solid #ccc;
+    padding: 10px;
+    box-sizing: border-box;
+    border-radius: 2px;
+    height: 130px;
+    width: 400px;
+    margin-left: 150px;
+    margin-top: -25px;
+}
+
+.msgtxt{
+    float: left;
+    margin-right: -79px;
+    margin-left: 71px;
+}
+.nme{
+    margin-left: 10px;
+}
+
+  .takway
+  {
+      margin-left: 100px;
+  }
+  .eatin
+  {
+      margin-left: 100px;
+  }
+
+  #visa
+  {
+    background: #8B8B8B;
+    height: 190px;
+    width: 650px;
+    border-radius: 15px;
+    margin-left: 10px;
+    margin-top: 10px;
+}
+.checkoutpayment{
+    padding:20px;
+}
+.crdnum{
+    width: 72%;
+    margin-right: 30px;
+}
+.crdnumtxt
+{
+    float:left;
+}
+.crdnme{
+
+    margin-top: 20px;
+    margin-left: 75px;
+    float: left;
+}
+.crdnmetxt{
+    float: left;
+    margin-top: 20px;
+    margin-left: 56px;
+    margin-right: -56px;
+}
+.expdatetxt{
+    float: left;
+    margin-top: 20px;
+    margin-left: 20px;
+}
+.expdate{
+    float: left;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.csctxt
+{
+    float: left;
+    margin-right: 200px;
+    margin-left: 71px;
+    margin-top: 20px;
+}
+.csc{
+    float:left;
+    margin-right: 150px;
+    margin-left: 125px;
+    margin-top: -20px;
+}
+#visalogo{
+    color: blue;
+    background: #fff;
+    margin-top:20px;
+    border-radius: 10px;
+
+}

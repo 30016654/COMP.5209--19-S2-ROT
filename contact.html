@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Melting Pot Cafe</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/navbar.css">
+    <link rel="stylesheet" type="text/css" href="css/contactform.css">
+
+    <!--| Add icon library |-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" type="text/css" href="http://fonts.googleapis.com/css?family=Open+Sans" />
+</head>
+
+<body>
+    <!--| navbar |-->
+    <div class="navbar">
+        <div class="navbar-logo">
+            <a href="index.html"><img src="images/meltingpotlogo.png" alt="Melting Pot Cafe Logo" /></a>
+        </div>
+        <div class="navbar-left">
+            <a href="index.html">Home</a>
+            <a href="menu.html">Menu</a>
+            <a href="contact.html">Contact</a>
+        </div>
+        <div class="navbar-right">
+            <a href="#" class="fa fa-whatsapp"></a>
+            <a href="#" class="fa fa-instagram"></a>
+            <a href="#" class="fa fa-facebook"></a>
+
+        </div>
+    </div>
+
+    <!--| Header Div |-->
+    <div id="header"><img src="images/contactheader.jpg" class="max-width" style="border-bottom: 4px solid #5ba9aa" alt="Man with phone infront of laptop"></div>
+
+    <!--| Main Content Starts |-->
+    <div class="row">
+        <div class="col-12" style="padding: 0px">
+            <h1> CONTACT US </h1>
+        </div>
+    </div>
+    <div class="col-12" id="Background">
+
+        <div class="col-6">
+            <form id="ContactForm" name="contactForm" onsubmit="return validateForm()" method="post">
+                <div class="row">
+                    <label>Full Name</label>
+                    <input type="text" name="name" placeholder="Full name here..">
+                    <div class="error" id="nameErr"></div>
+                </div>
+                <div class="row">
+                    <label>Email Address</label>
+                    <input type="text" name="email" placeholder="Email address here..">
+                    <div class="error" id="emailErr"></div>
+                </div>
+                <div class="row">
+                    <label>Mobile Number</label>
+                    <input type="text" name="mobile" maxlength="10" placeholder="Mobile number here..">
+                    <div class="error" id="mobileErr"></div>
+                </div>
+                <div>
+                    <label>Message</label>
+                    <textarea rows="10" cols="63" name="message" placeholder="Type your message.."></textarea>
+                    <div class="error" id="messageErr"></div>
+                </div>
+                <div class="row">
+                    <input type="submit" value="Submit" style="margin-left: 38%">
+                </div>
+            </form>
+        </div>
+        <div class="col-6" ><img src="images/ContactCoffee.jpg" id="coffeegirl" alt = "Girl with coffee"></div>
+    </div>
+    <!--| Main Content Ends |-->
+    <!-- | Footer |-->
+    <div class="footer">
+        <p>© Saacha Morgan | 30016654</p>
+    </div>
+</body>
+
+</html>
