@@ -1,0 +1,3 @@
+CHANGE LOG
+
+09/11/2019 - Added in contact page even though it was not featured on flowchart, it is a basic requirment for all websites.

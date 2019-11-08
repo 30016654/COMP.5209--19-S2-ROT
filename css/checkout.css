@@ -144,3 +144,19 @@
     border-radius: 10px;
 
 }
+
+.visasub {
+    font-size: 110%;
+    font-weight: 100;
+    background: #5ba9aa;
+    width: 30%;
+    height: 50px;
+    margin-left: 55%;
+    color: #fff;
+    margin-top: 20px;
+    cursor: pointer;
+    border: 0px;
+    padding: 5px;
+    border-radius: 6px;
+    float: left;
+}
