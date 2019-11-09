@@ -96,7 +96,7 @@ h4 span:first-child {
     text-align: left;
 }
 
-h4 .dots {
+h4 .menudots {
     width: 30%;
     border-bottom: 2px dotted #ccc;
     margin-top: 0.8em;
