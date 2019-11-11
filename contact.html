@@ -42,32 +42,28 @@
             <h1> CONTACT US </h1>
         </div>
     </div>
-    <div class="col-12" id="Background">
+    <div class="col-12" id="Background" style="height:auto;">
 
         <div class="col-6">
-            <form id="ContactForm" name="contactForm" onsubmit="return validateForm()" method="post">
+            <form class="ContactForm" name="contactForm">
                 <div class="row">
                     <label>Full Name</label>
                     <input type="text" name="name" placeholder="Full name here..">
-                    <div class="error" id="nameErr"></div>
                 </div>
                 <div class="row">
                     <label>Email Address</label>
                     <input type="text" name="email" placeholder="Email address here..">
-                    <div class="error" id="emailErr"></div>
                 </div>
                 <div class="row">
                     <label>Mobile Number</label>
-                    <input type="text" name="mobile" maxlength="10" placeholder="Mobile number here..">
-                    <div class="error" id="mobileErr"></div>
+                    <input type="text" name="mobile" placeholder="Mobile number here..">
                 </div>
                 <div>
                     <label>Message</label>
-                    <textarea rows="10" cols="63" name="message" placeholder="Type your message.."></textarea>
-                    <div class="error" id="messageErr"></div>
+                    <textarea rows="5" cols="20" name="message" placeholder="Type your message.."></textarea>
                 </div>
                 <div class="row">
-                    <input type="submit" value="Submit" class="subcon" style="margin-left: 38%">
+                    <input type="submit" value="Submit" class="subcon" style="margin-left: 30%">
                 </div>
             </form>
         </div>

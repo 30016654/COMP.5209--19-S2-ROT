@@ -48,7 +48,7 @@
         <div class="col-6" style="border-right: 3px solid #5ba9aa">
             <h3><u>FOOD</u></h3>
             <div class="container">
-                <form name="menuForm" onsubmit="return onMenuSubmit();"></form>
+                <form name="menuForm"></form>
                     <h4>
                         <span>Chicken, Cranberry & Camembert Burger </span>
                         <span class="menudots"></span>
@@ -196,10 +196,14 @@
             </div>
         </div>
     </div>
-    <form action="checkout.html">
-        <input type="submit" id=Order value="Order" />
-        <!--| Button disabled to allow for linking to payment page for testing purposes. |-->
-    </form>
+
+    <div class="row last order">
+        <form action="checkout.html">
+            <input type="submit" value="Order" />
+            <!--| Button disabled to allow for linking to payment page for testing purposes. |-->
+        </form>
+    </div>
+
     <!--| Main Content Ends| -->
 
     <!--| Footer |-->

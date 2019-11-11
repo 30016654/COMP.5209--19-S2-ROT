@@ -16,16 +16,31 @@
     position: relative;
 }
 
-input#Order {
+/* All 'rows' are 100% width */
+.row {
+    width: 100%;
+}
+
+/* The row containing the order button */
+.order.row {
+    text-align: center;
+
+}
+
+/* Need 40px padding on last row in page
+   so it doesn't under-lap the footer */
+.last.row {
+    margin-bottom: 40px;
+}
+
+/* The order button */
+.order.row input[type=submit] {
     width: 100px;
     padding: 5px;
     border: 1px solid;
     border-radius: 6px;
     color: #fff;
     background-color: #5ba9aa;
-    margin-bottom: 50px;
-    margin-left: 47%;
-    position: relative;
 }
 
 #ordertxt {

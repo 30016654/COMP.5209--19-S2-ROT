@@ -1,13 +1,13 @@
 #OrderDisplay{
     margin-left: 50px;
     margin-top: 50px;
-    height: 80%;
+    height: 500px;
     width: 30%;
     background: #8B8B8B;
     border-radius: 20px;
 }
 #innerorder{
-    margin-left: 20px;
+    margin-left: 4%;
     height: 80%;
     width: 92%;
 }

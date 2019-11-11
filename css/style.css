@@ -56,6 +56,11 @@ p {
     color: #5ba9aa;
     font-size: 1vw
 }
+.hmtxt{
+    color: #5ba9aa;
+    padding: 5px;
+    padding-bottom: 20px;
+}
 
 h1,
 h3,
