@@ -1,15 +1,11 @@
-*,
-*:after,
-*:before {
-    box-sizing: border-box;
-}
 
+/* Set drinks side menu*/
 #drinks.container {
     margin: 1em auto;
     padding-bottom: 30px;
     position: relative;
 }
-
+/*Set food side menu*/
 #food.container {
     margin: 1em auto;
     padding-bottom: 30px;
@@ -35,7 +31,8 @@
 
 /* The order button */
 .order.row input[type=submit] {
-    width: 100px;
+    width: 120px;
+    height: 35px;
     padding: 5px;
     border: 1px solid;
     border-radius: 6px;
@@ -53,34 +50,11 @@
     padding: 0.3em 0.6em;
 }
 
-.container:after,
-.container:before {
-    display: table;
-    content: " ";
-    line-height: 0;
-    font-size: 0;
-    clear: both;
-}
-
 .container p {
     font-size: 0.9rem;
     margin-bottom: 1.5rem;
     font-style: italic;
     text-align: left;
-}
-
-.group-header {
-    float: right;
-    font-weight: 700;
-    width: 20%;
-    margin: 0.7em 0 1em 0;
-}
-
-.group-header span {
-    float: left;
-    width: 50%;
-    text-align: center;
-    display: block;
 }
 
 h4 {
