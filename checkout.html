@@ -55,27 +55,11 @@
             <div class="col-6" id="OrderDisplay">
                 <h3 style="color: #FFF">ORDER</h3>
                 <div class="col-4" id="innerorder" style="background-color: #fff">
-                    <style type="textcss">
-                        table.xorder {
-
-                        }
-
-                        table.xorder td {
-                            color: #5ba9aa;
-                            font-size: 14px;
-                            text-align: left;
-                        }
-
-                        table.xorder td.price {
-                            text-align: right;
-                        }
-
-                        table.xorder tfoot {
-                            font-weight: bold;
-                        }
-
-                    </style>
                     <table class="xorder">
+                        <thead>
+                            <td>Food item</td>
+                            <td class="price">Price</td>
+                        </thead>
                         <tr>
                             <td>Chicken, Cranberry & Camembert Burger</td>
                             <td class="price">$15.00</td>
@@ -84,19 +68,14 @@
                             <td>Coke No Sugar</td>
                             <td class="price">$4.50</td>
                         </tr>
+                        <tr class="spacer">
+                            <td colspan="2"></td>
+                        </tr>
                         <tfoot>
                             <td>Total:</td>
                             <td class="price">$19.50</td>
                         </tfoot>
                     </table>
-                    <span style="float:left; color:#5ba9aa; font-size:14px;"</span>
-                    <span style="float:right; color:#5ba9aa; font-size:14px;">$15.00</span>
-                    <span style="float:left; display:block; color:#5ba9aa; font-size:14px;">Coke No Sugar</span>
-                    <span style="float:right; display:block; color:#5ba9aa; font-size:14px;">$4.50</span>
-                    <span class="total" style="float:left; color:#5ba9aa; font-size:14px;">Total:</span>
-                    <span class="totalcost" style="float:right; color:#5ba9aa; font-size:14px; margin-top:100px; margin-right:-35px;">$19.50</span>
-                    <span style="float:right; color:#5ba9aa; font-size:14px; width: 30%; border-bottom: 2px dotted #ccc; margin-top: 125px; margin-right: -45px; "></span>
-
                 </div>
 
             </div>
